@@ -289,8 +289,8 @@ h4,
 .group-card {
     background-color: transparent;
     perspective: 1000px;
-    height: 320px;
-    /* Fixed height for flip effect */
+    height: 400px;
+    /* Fixed height for flip effect and content */
 }
 
 .group-card-inner {
@@ -334,6 +334,7 @@ h4,
     height: 140px;
     overflow: hidden;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
+    flex-shrink: 0;
 }
 
 .group-image-container img {
