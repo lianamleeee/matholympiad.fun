@@ -423,6 +423,7 @@ h4,
     list-style: none;
     font-size: 0.9rem;
     padding-top: 1rem;
+    overflow-y: auto;
 }
 
 .group-details li {
