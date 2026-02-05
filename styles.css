@@ -594,7 +594,17 @@ h4,
     border-radius: 50%;
     margin-bottom: 1rem;
     align-self: flex-start;
+    overflow: hidden; 
     /* Mobile default */
+}
+
+/* rule to target the image inside the circle */
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    /* This ensures the photo fills the circle without being squished */
+    object-fit: cover; 
+    display: block;
 }
 
 /* Desktop: Horizontal layout - 4 columns */
